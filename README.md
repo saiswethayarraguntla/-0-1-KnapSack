@@ -4,9 +4,13 @@ Comparison of Different algorithms for different input sizes for the 0-1 knap sa
 In this assignment I implemented four different algorithms for solving the 0-1 Knapsack Problem and evaluate their performances using real time measurements. The algorithms are:
 
 a)Brute-Force Enumeration.
+
 b)Backtracking.
+
 c)Branch-and-Bound. implemented the three upper bound techniques
+
 d)Dynamic Programming.
+
 implemented three different branch-and-bound algorithms; each algorithm uses one of the following three upper bounds (UBs) to prune the tree:
 
 UB1: the sum of taken item values and undecided item values
@@ -25,5 +29,5 @@ UB1 B&B UB2 B&B UB3 Dynamic Programming N = 10 N = 20 N = 30 N = 40 Largest Inpu
 Extra Work
 
 1.A more efficient way of computing UB2. Sorting the elements in increasing order of thier weights is done before processing
+
 2.A more efficient way of computing UB3. Implements the look up table
-Fell free to raise a pull request if the code doesnt work or any modifications required.
